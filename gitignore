@@ -16,7 +16,7 @@
 /Temp/
 /UserData/
 
-Archivos de caché
+#Archivos de caché
 /.sdf
 /.opensdf
 /.swp
@@ -33,7 +33,7 @@ Archivos de caché
 /.ipch
 /.ipynb_checkpoints/
 
-Archivos de configuración
+#Archivos de configuración
 /.sln
 /.suo
 /*.xcuserstate
