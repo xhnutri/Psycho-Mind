@@ -21851,3 +21851,1422 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.06.07-18.12.38:900][132]AssetCheck: New page: Asset Save: L_Scene1
 [2023.06.07-18.12.38:900][132]LogContentValidation: Display: Validating World /Game/Miguel/Levels/L_Scene1.L_Scene1
 [2023.06.07-18.12.49:692][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2023.06.07-18.24.49:867][775]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.24.49:873][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.24.49:873][775]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:24:49)
+[2023.06.07-18.24.49:873][775]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.24.49:875][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001349s)
+[2023.06.07-18.24.49:875][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001419s)
+[2023.06.07-18.24.49:875][775]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.24.49:875][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.24.49:875][775]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.24.49:875][775]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2023.06.07-18.24.49:956][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2023.06.07-18.24.49:960][775]LogAudio: Display: Creating Audio Device:                 Id: 50, Scope: Unique, Realtime: True
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.24.49:960][775]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.24.49:960][775]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.24.49:961][775]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.24.49:961][775]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.24.49:961][775]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.24.49:993][775]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.24.50:007][775]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.24.50:008][775]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.24.50:008][775]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.24.50:008][775]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.24.50:008][775]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=50
+[2023.06.07-18.24.50:008][775]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=50
+[2023.06.07-18.24.50:009][775]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=50
+[2023.06.07-18.24.50:009][775]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=50
+[2023.06.07-18.24.50:009][775]LogInit: FAudioDevice initialized.
+[2023.06.07-18.24.50:009][775]LogAudio: Display: Audio Device (ID: 50) registered with world 'L_Scene1'.
+[2023.06.07-18.24.50:023][775]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.24.50:023][775]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.24.50
+[2023.06.07-18.24.50:023][775]LogWorld: Bringing up level for play took: 0.000291
+[2023.06.07-18.24.50:025][775]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2023.06.07-18.24.50:025][775]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.24.50:026][775]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.24.50:027][775]PIE: Server logged in
+[2023.06.07-18.24.50:028][775]PIE: Play in editor total start time 0,155 seconds.
+[2023.06.07-18.24.50:028][775]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:029][775]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.24.50:030][775]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.24.50:030][775]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.24.50:030][775]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:032][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:033][775]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.24.50:034][775]LogBlueprintUserMessages: [WD_Dia_C_0] TextB
+[2023.06.07-18.24.50:043][776]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:051][777]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:059][778]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:068][779]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:076][780]Cmd: sg.resolutionquality 100
+[2023.06.07-18.24.50:076][780]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.24.50:076][780]sg.ResolutionQuality = "100"
+[2023.06.07-18.24.50:076][780]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.24.50:076][780]r.SetRes = "1280x720w"
+[2023.06.07-18.24.50:076][780]LogBlueprintUserMessages: [Global_BP_C_48] Skipping text calibration
+[2023.06.07-18.24.50:077][780]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:085][781]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:093][782]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:101][783]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:110][784]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:118][785]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:127][786]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:135][787]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:144][788]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:152][789]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:160][790]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:168][791]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:177][792]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:185][793]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:194][794]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:202][795]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:209][796]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:218][797]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:227][798]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:235][799]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:243][800]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:251][801]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:260][802]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:268][803]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:276][804]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:285][805]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:293][806]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:301][807]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:310][808]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:318][809]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:327][810]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:335][811]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:343][812]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:352][813]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:360][814]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:368][815]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:377][816]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:385][817]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_16' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.24.50:385][817]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.24.50:385][817]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_18' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.24.50:386][817]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:394][818]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:402][819]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:410][820]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:419][821]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:426][822]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:434][823]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:443][824]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:451][825]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:460][826]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:468][827]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:476][828]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:485][829]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:493][830]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:501][831]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:510][832]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:518][833]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:526][834]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:535][835]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:543][836]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:551][837]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:560][838]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:568][839]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:576][840]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:585][841]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:593][842]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:601][843]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:610][844]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:618][845]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:626][846]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:634][847]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:643][848]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:651][849]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:659][850]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:668][851]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:676][852]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:684][853]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:693][854]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:701][855]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:709][856]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:718][857]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:726][858]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:735][859]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:743][860]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:751][861]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:760][862]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:768][863]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:776][864]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:785][865]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:793][866]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:801][867]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:810][868]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:818][869]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:827][870]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:835][871]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:843][872]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:852][873]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:860][874]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:868][875]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:877][876]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:885][877]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:894][878]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:901][879]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:909][880]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:918][881]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:926][882]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:934][883]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:943][884]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:951][885]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:960][886]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:968][887]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:976][888]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:985][889]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.50:993][890]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:001][891]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:010][892]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:018][893]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:026][894]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:035][895]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:043][896]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:051][897]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:060][898]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:068][899]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:076][900]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:085][901]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:093][902]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:102][903]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:110][904]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:118][905]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:126][906]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:135][907]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:143][908]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:152][909]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:160][910]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:169][911]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:178][912]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:193][913]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:201][914]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:209][915]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:218][916]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:226][917]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:234][918]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:243][919]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:251][920]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:260][921]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:268][922]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:277][923]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:285][924]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:293][925]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:301][926]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:310][927]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:318][928]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:326][929]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:334][930]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:342][931]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:352][932]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:366][933]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:374][934]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:382][935]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:391][936]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:399][937]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:407][938]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:416][939]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:424][940]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:432][941]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:441][942]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:449][943]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:458][944]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:466][945]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:474][946]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:483][947]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:491][948]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:499][949]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:508][950]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:516][951]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:524][952]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:533][953]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:541][954]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:549][955]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:558][956]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:566][957]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:574][958]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:583][959]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:666][969]LogBlueprintUserMessages: [L_Scene1_C_15] true
+[2023.06.07-18.24.51:699][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.24.51:699][969]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.24.51:700][969]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.24.51:700][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.24.51:712][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.24.51:719][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.24.51:790][969]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.24.51:790][969]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.06.07-18.24.51:791][969]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=50
+[2023.06.07-18.24.51:794][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.24.51:797][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2023.06.07-18.24.51:811][970]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2023.06.07-18.25.54:435][236]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2023.06.07-18.25.54:480][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/Levels/L_Scene1" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.07-18.25.54:552][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.06.07-18.25.54:559][236]LogSavePackage: Moving output files for package: /Game/Miguel/Levels/L_Scene1
+[2023.06.07-18.25.54:559][236]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/L_Scene1844D9DAA4360A48348C420B4FC6D8311.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap'
+[2023.06.07-18.25.54:570][236]LogFileHelpers: Saving map 'L_Scene1' took 0.090
+[2023.06.07-18.25.54:570][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Blueprints/Global_BP" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Global_BP.uasset" SILENT=true
+[2023.06.07-18.25.54:884][236]LogSavePackage: Moving output files for package: /Game/VN_Framework/Blueprints/Global_BP
+[2023.06.07-18.25.54:885][236]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Global_BP76958AAC4605CC2C9597C58D1E93B35D.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Global_BP.uasset'
+[2023.06.07-18.25.54:904][236]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.07-18.25.54:904][236]LogContentValidation: Display: Validating Blueprint /Game/VN_Framework/Blueprints/Global_BP.Global_BP
+[2023.06.07-18.25.54:904][236]LogContentValidation: Display: Validating World /Game/Miguel/Levels/L_Scene1.L_Scene1
+[2023.06.07-18.25.55:558][313]BlueprintLog: New page: Compile Global_BP
+[2023.06.07-18.25.56:151][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.06.07-18.26.32:276][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.06.07-18.26.32:336][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Blueprints/Global_BP" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Global_BP.uasset" SILENT=true
+[2023.06.07-18.26.32:650][550]LogSavePackage: Moving output files for package: /Game/VN_Framework/Blueprints/Global_BP
+[2023.06.07-18.26.32:651][550]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Global_BPE8E16F06465627C8E3815CB900D86662.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Global_BP.uasset'
+[2023.06.07-18.26.32:665][550]AssetCheck: New page: Asset Save: Global_BP
+[2023.06.07-18.26.32:665][550]LogContentValidation: Display: Validating Blueprint /Game/VN_Framework/Blueprints/Global_BP.Global_BP
+[2023.06.07-18.26.33:015][584]BlueprintLog: New page: Compile Global_BP
+[2023.06.07-18.26.33:535][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.07-18.26.34:723][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2023.06.07-18.26.36:487][880]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.26.36:492][880]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.07-18.26.36:493][880]LogPlayLevel: [PlayLevel] Compiling L_Scene1 before play...
+[2023.06.07-18.26.36:613][880]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.06.07-18.26.36:615][880]LogPlayLevel: PlayLevel: Blueprint regeneration took 122 ms (1 blueprints)
+[2023.06.07-18.26.36:615][880]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:26:36)
+[2023.06.07-18.26.36:615][880]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.26.36:616][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001013s)
+[2023.06.07-18.26.36:616][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001069s)
+[2023.06.07-18.26.36:616][880]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.26.36:616][880]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.26.36:616][880]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.26.36:617][880]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2023.06.07-18.26.36:688][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.07-18.26.36:691][880]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.26.36:691][880]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.26.36:691][880]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.26.36:691][880]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.26.36:691][880]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.26.36:691][880]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.26.36:693][880]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.26.36:707][880]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.26.36:707][880]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.26.36:707][880]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.26.36:707][880]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.26.36:707][880]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2023.06.07-18.26.36:707][880]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2023.06.07-18.26.36:709][880]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2023.06.07-18.26.36:709][880]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2023.06.07-18.26.36:709][880]LogInit: FAudioDevice initialized.
+[2023.06.07-18.26.36:709][880]LogAudio: Display: Audio Device (ID: 51) registered with world 'L_Scene1'.
+[2023.06.07-18.26.36:717][880]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.26.36:717][880]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.26.36
+[2023.06.07-18.26.36:717][880]LogWorld: Bringing up level for play took: 0.000266
+[2023.06.07-18.26.36:718][880]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2023.06.07-18.26.36:719][880]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.26.36:720][880]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.26.36:721][880]PIE: Server logged in
+[2023.06.07-18.26.36:721][880]PIE: Play in editor total start time 0,229 seconds.
+[2023.06.07-18.26.36:722][880]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.26.36:723][880]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.26.36:723][880]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.26.36:723][880]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:725][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:726][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:727][880]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:727][880]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.26.36:727][880]LogBlueprintUserMessages: [WD_Dia_C_0] TextB
+[2023.06.07-18.26.36:829][882]Cmd: sg.resolutionquality 100
+[2023.06.07-18.26.36:829][882]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.26.36:829][882]sg.ResolutionQuality = "100"
+[2023.06.07-18.26.36:829][882]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.26.36:829][882]r.SetRes = "1280x720w"
+[2023.06.07-18.26.36:829][882]LogBlueprintUserMessages: [Global_BP_C_49] Skipping text calibration
+[2023.06.07-18.26.36:998][902]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_16' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.26.36:998][902]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.26.36:998][902]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_18' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.26.37:715][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.26.37:715][983]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.26.37:716][983]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.26.37:716][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.26.37:725][983]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.26.37:732][983]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.26.37:801][983]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.26.37:802][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.06.07-18.26.37:803][983]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2023.06.07-18.26.37:809][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.06.07-18.26.37:824][984]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2023.06.07-18.26.52:123][660]BlueprintLog: New page: Compile L_Scene1
+[2023.06.07-18.26.52:235][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2023.06.07-18.26.53:415][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.26.53:420][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.26.53:420][785]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:26:53)
+[2023.06.07-18.26.53:420][785]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.26.53:421][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001064s)
+[2023.06.07-18.26.53:421][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001126s)
+[2023.06.07-18.26.53:421][785]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.26.53:421][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.26.53:422][785]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.26.53:422][785]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2023.06.07-18.26.53:494][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.06.07-18.26.53:497][785]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.26.53:497][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.26.53:497][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.26.53:498][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.26.53:498][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.26.53:498][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.26.53:499][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.26.53:513][785]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.26.53:514][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.26.53:514][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.26.53:514][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.26.53:514][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2023.06.07-18.26.53:514][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2023.06.07-18.26.53:515][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2023.06.07-18.26.53:515][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2023.06.07-18.26.53:515][785]LogInit: FAudioDevice initialized.
+[2023.06.07-18.26.53:515][785]LogAudio: Display: Audio Device (ID: 52) registered with world 'L_Scene1'.
+[2023.06.07-18.26.53:528][785]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.26.53:528][785]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.26.53
+[2023.06.07-18.26.53:528][785]LogWorld: Bringing up level for play took: 0.000263
+[2023.06.07-18.26.53:529][785]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2023.06.07-18.26.53:530][785]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.26.53:531][785]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.26.53:531][785]PIE: Server logged in
+[2023.06.07-18.26.53:532][785]PIE: Play in editor total start time 0,112 seconds.
+[2023.06.07-18.26.53:533][785]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:534][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.26.53:535][785]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.26.53:535][785]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.26.53:535][785]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.26.53:536][785]LogScript: Warning: Attempted to access index 0 from array ArrayofRows of length 0!
+	WD_NVL_C /Engine/Transient.UnrealEdEngine_0:Global_BP_C_50.WD_NVL_C_0
+	Function /Game/VN_Framework/Blueprints/Widgets/WD_NVL.WD_NVL_C:ExecuteUbergraph_WD_NVL:05F9
+[2023.06.07-18.26.53:536][785]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.26.53:536][785]LogScript: Warning: Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB
+	WD_NVL_C /Engine/Transient.UnrealEdEngine_0:Global_BP_C_50.WD_NVL_C_0
+	Function /Game/VN_Framework/Blueprints/Widgets/WD_NVL.WD_NVL_C:ExecuteUbergraph_WD_NVL:05F9
+[2023.06.07-18.26.53:536][785]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.26.53:536][785]LogScript: Warning: Attempted to access index 0 from array ArrayofRows of length 0!
+	WD_NVL_C /Engine/Transient.UnrealEdEngine_0:Global_BP_C_50.WD_NVL_C_0
+	Function /Game/VN_Framework/Blueprints/Widgets/WD_NVL.WD_NVL_C:ExecuteUbergraph_WD_NVL:06FC
+[2023.06.07-18.26.53:536][785]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.26.53:536][785]LogScript: Warning: Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB
+	WD_NVL_C /Engine/Transient.UnrealEdEngine_0:Global_BP_C_50.WD_NVL_C_0
+	Function /Game/VN_Framework/Blueprints/Widgets/WD_NVL.WD_NVL_C:ExecuteUbergraph_WD_NVL:06FC
+[2023.06.07-18.26.53:536][785]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.26.53:612][794]Cmd: sg.resolutionquality 100
+[2023.06.07-18.26.53:612][794]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.26.53:613][794]sg.ResolutionQuality = "100"
+[2023.06.07-18.26.53:613][794]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.26.53:613][794]r.SetRes = "1280x720w"
+[2023.06.07-18.26.53:613][794]LogBlueprintUserMessages: [Global_BP_C_50] Skipping text calibration
+[2023.06.07-18.26.54:918][950]LogScript: Warning: Attempted to access index -1 from array ArrayofRows of length 0!
+	NVL_SceneTemp_BP_C /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1:PersistentLevel.NVL_SceneTemp_BP_C_0
+	Function /Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP:2C76
+[2023.06.07-18.26.54:918][950]PIE: Error: Blueprint Runtime Error: "Attempted to access index -1 from array ArrayofRows of length 0!". Node:  Change Costume Graph:  DestroyCharacters Function:  Execute Ubergraph Scene Template BP Blueprint:  SceneTemplate_BP
+[2023.06.07-18.26.54:918][950]LogScript: Warning: Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB
+	NVL_SceneTemp_BP_C /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1:PersistentLevel.NVL_SceneTemp_BP_C_0
+	Function /Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP:2C76
+[2023.06.07-18.26.54:918][950]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Change Costume Graph:  DestroyCharacters Function:  Execute Ubergraph Scene Template BP Blueprint:  SceneTemplate_BP
+[2023.06.07-18.26.54:918][950]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_2' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.26.54:918][950]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_1' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.26.54:918][950]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.26.54:919][950]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.06.07-18.26.54:919][950]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.06.07-18.26.57:606][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.26.57:606][269]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.26.57:606][269]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.26.57:606][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.26.57:615][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.26.57:622][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.26.57:693][269]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.26.57:693][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.06.07-18.26.57:694][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2023.06.07-18.26.57:697][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.26.57:700][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2023.06.07-18.26.57:811][270]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2023.06.07-18.27.00:327][521]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.27.00:330][521]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.27.17:451][258]LogEditorTransaction: Undo Rename Node
+[2023.06.07-18.27.18:387][318]LogEditorTransaction: Undo Change String Pin Value
+[2023.06.07-18.27.19:422][431]BlueprintLog: New page: Compile L_Scene1
+[2023.06.07-18.27.19:534][431]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2023.06.07-18.27.20:584][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.27.20:589][540]BlueprintLog: New page: Pre-Play auto-recompile
+[2023.06.07-18.27.20:686][540]LogPlayLevel: [PlayLevel] Compiling WD_Dia before play...
+[2023.06.07-18.27.20:688][540]LogPlayLevel: [PlayLevel]   Compiling WD_NVL as a dependent...
+[2023.06.07-18.27.20:688][540]LogPlayLevel: [PlayLevel]   Compiling WD_Log as a dependent...
+[2023.06.07-18.27.21:131][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.06.07-18.27.21:139][540]LogPlayLevel: PlayLevel: Blueprint regeneration took 549 ms (3 blueprints)
+[2023.06.07-18.27.21:139][540]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:27:21)
+[2023.06.07-18.27.21:177][540]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.27.21:178][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001084s)
+[2023.06.07-18.27.21:178][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001151s)
+[2023.06.07-18.27.21:178][540]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.27.21:178][540]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.27.21:178][540]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.27.21:179][540]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2023.06.07-18.27.21:251][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.06.07-18.27.21:253][540]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.27.21:253][540]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.27.21:253][540]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.27.21:254][540]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.27.21:254][540]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.27.21:254][540]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.27.21:255][540]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.27.21:269][540]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.27.21:269][540]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.27.21:269][540]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.27.21:269][540]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.27.21:270][540]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2023.06.07-18.27.21:270][540]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2023.06.07-18.27.21:271][540]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2023.06.07-18.27.21:271][540]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2023.06.07-18.27.21:271][540]LogInit: FAudioDevice initialized.
+[2023.06.07-18.27.21:271][540]LogAudio: Display: Audio Device (ID: 53) registered with world 'L_Scene1'.
+[2023.06.07-18.27.21:284][540]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.27.21:284][540]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.27.21
+[2023.06.07-18.27.21:284][540]LogWorld: Bringing up level for play took: 0.000265
+[2023.06.07-18.27.21:286][540]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2023.06.07-18.27.21:286][540]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.27.21:287][540]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.27.21:288][540]PIE: Server logged in
+[2023.06.07-18.27.21:288][540]PIE: Play in editor total start time 0,7 seconds.
+[2023.06.07-18.27.21:290][540]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.27.21:290][540]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.27.21:290][540]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.27.21:290][540]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:292][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:293][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:294][540]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:294][540]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.21:295][540]LogBlueprintUserMessages: [WD_Dia_C_0] TextB
+[2023.06.07-18.27.21:398][542]Cmd: sg.resolutionquality 100
+[2023.06.07-18.27.21:398][542]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.27.21:398][542]sg.ResolutionQuality = "100"
+[2023.06.07-18.27.21:398][542]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.27.21:398][542]r.SetRes = "1280x720w"
+[2023.06.07-18.27.21:398][542]LogBlueprintUserMessages: [Global_BP_C_51] Skipping text calibration
+[2023.06.07-18.27.21:416][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_16' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.27.21:416][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.27.21:416][544]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_18' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.27.22:507][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.27.22:507][670]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.27.22:507][670]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.27.22:507][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.27.22:521][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.27.22:529][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.27.22:600][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.27.22:600][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.06.07-18.27.22:603][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2023.06.07-18.27.22:608][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2023.06.07-18.27.22:624][671]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2023.06.07-18.27.39:275][434]BlueprintLog: New page: Compile WD_Dia
+[2023.06.07-18.27.39:663][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.06.07-18.27.41:903][630]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2023.06.07-18.27.41:964][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/Levels/L_Scene1" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.07-18.27.42:035][630]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.06.07-18.27.42:041][630]LogSavePackage: Moving output files for package: /Game/Miguel/Levels/L_Scene1
+[2023.06.07-18.27.42:041][630]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/L_Scene1B8864B944B75495677866BB5A0EB7182.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap'
+[2023.06.07-18.27.42:050][630]LogFileHelpers: Saving map 'L_Scene1' took 0.086
+[2023.06.07-18.27.42:053][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Blueprints/Widgets/WD_Dia" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Widgets/WD_Dia.uasset" SILENT=true
+[2023.06.07-18.27.42:275][630]LogSavePackage: Moving output files for package: /Game/VN_Framework/Blueprints/Widgets/WD_Dia
+[2023.06.07-18.27.42:275][630]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/WD_DiaAA75742B4B7025C62B578787338A17C6.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Widgets/WD_Dia.uasset'
+[2023.06.07-18.27.42:290][630]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.07-18.27.42:290][630]LogContentValidation: Display: Validating WidgetBlueprint /Game/VN_Framework/Blueprints/Widgets/WD_Dia.WD_Dia
+[2023.06.07-18.27.42:291][630]LogContentValidation: Display: Validating World /Game/Miguel/Levels/L_Scene1.L_Scene1
+[2023.06.07-18.27.51:455][324]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.27.51:460][324]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.27.51:460][324]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:27:51)
+[2023.06.07-18.27.51:460][324]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.27.51:462][324]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001063s)
+[2023.06.07-18.27.51:462][324]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001121s)
+[2023.06.07-18.27.51:462][324]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.27.51:462][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.27.51:462][324]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.27.51:462][324]LogPlayLevel: PIE: World Init took: (0.000670s)
+[2023.06.07-18.27.51:537][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.06.07-18.27.51:540][324]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.27.51:540][324]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.27.51:540][324]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.27.51:541][324]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.27.51:541][324]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.27.51:541][324]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.27.51:543][324]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.27.51:556][324]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.27.51:556][324]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.27.51:556][324]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.27.51:557][324]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.27.51:557][324]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2023.06.07-18.27.51:557][324]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2023.06.07-18.27.51:558][324]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2023.06.07-18.27.51:558][324]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2023.06.07-18.27.51:559][324]LogInit: FAudioDevice initialized.
+[2023.06.07-18.27.51:559][324]LogAudio: Display: Audio Device (ID: 54) registered with world 'L_Scene1'.
+[2023.06.07-18.27.51:568][324]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.27.51:568][324]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.27.51
+[2023.06.07-18.27.51:568][324]LogWorld: Bringing up level for play took: 0.000269
+[2023.06.07-18.27.51:569][324]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2023.06.07-18.27.51:570][324]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.27.51:571][324]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.27.51:571][324]PIE: Server logged in
+[2023.06.07-18.27.51:572][324]PIE: Play in editor total start time 0,111 seconds.
+[2023.06.07-18.27.51:572][324]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.27.51:573][324]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.27.51:573][324]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.27.51:573][324]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:575][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:576][324]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.27.51:656][334]Cmd: sg.resolutionquality 100
+[2023.06.07-18.27.51:656][334]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.27.51:656][334]sg.ResolutionQuality = "100"
+[2023.06.07-18.27.51:656][334]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.27.51:656][334]r.SetRes = "1280x720w"
+[2023.06.07-18.27.51:656][334]LogBlueprintUserMessages: [Global_BP_C_52] Skipping text calibration
+[2023.06.07-18.27.51:965][370]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_16' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.27.51:965][370]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.27.51:965][370]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_18' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.27.52:879][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.27.52:879][475]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.27.52:879][475]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.27.52:879][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.27.52:891][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.27.52:900][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.27.52:973][475]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.27.52:973][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.06.07-18.27.52:975][475]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2023.06.07-18.27.52:978][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.27.52:981][475]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.06.07-18.27.52:995][476]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2023.06.07-18.28.16:352][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.28.16:353][187]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.28.16:354][187]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table12B4D8DA4E7A47879582A19F52E7EB7A.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.28.16:367][187]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.28.16:367][187]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.28.16:539][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.28.16:541][203]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.28.16:541][203]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_tableB57ADB104E818A7F8DFD0FB79FC205C5.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.28.16:554][203]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.28.16:554][203]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.28.16:725][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.28.16:727][218]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.28.16:727][218]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table73D4B9244D7D5C43C2B382A1D33F7250.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.28.16:739][218]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.28.16:739][218]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.28.16:966][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.28.16:967][240]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.28.16:967][240]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table72B1C7A049C7DD66B386BCA9EBF11016.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.28.16:980][240]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.28.16:980][240]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.28.17:113][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.28.17:114][253]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.28.17:115][253]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table243B963F4C3CEB8C46454FA824773FE7.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.28.17:127][253]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.28.17:127][253]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.29.02:514][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2023.06.07-18.29.02:572][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.29.02:573][577]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.29.02:573][577]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table2BE6105349C6ACDDEC40CE966FA372ED.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.29.02:586][577]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.29.02:586][577]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.31.38:963][885]LogCSVImportFactory: Imported DataTable 'Scene1_table' - 0 Problems
+[2023.06.07-18.31.52:308][236]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.32.01:594][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.32.01:595][298]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.32.01:596][298]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_tableCB2CF2FF46F8D8306FD10C842209B327.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.32.01:609][298]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.32.01:609][298]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.32.02:915][453]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.32.02:920][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.32.02:920][453]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:32:02)
+[2023.06.07-18.32.02:920][453]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.02:921][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001154s)
+[2023.06.07-18.32.02:921][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001213s)
+[2023.06.07-18.32.02:921][453]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.32.02:922][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.32.02:922][453]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.32.02:922][453]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2023.06.07-18.32.03:001][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.06.07-18.32.03:009][453]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.32.03:009][453]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.32.03:009][453]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.32.03:010][453]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.32.03:010][453]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.32.03:010][453]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.32.03:012][453]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.32.03:025][453]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.32.03:025][453]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.32.03:025][453]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.32.03:025][453]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.32.03:025][453]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2023.06.07-18.32.03:025][453]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2023.06.07-18.32.03:027][453]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2023.06.07-18.32.03:027][453]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2023.06.07-18.32.03:027][453]LogInit: FAudioDevice initialized.
+[2023.06.07-18.32.03:027][453]LogAudio: Display: Audio Device (ID: 55) registered with world 'L_Scene1'.
+[2023.06.07-18.32.03:035][453]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.32.03:035][453]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.32.03
+[2023.06.07-18.32.03:035][453]LogWorld: Bringing up level for play took: 0.000265
+[2023.06.07-18.32.03:037][453]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.06.07-18.32.03:037][453]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.32.03:038][453]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.32.03:039][453]PIE: Server logged in
+[2023.06.07-18.32.03:040][453]PIE: Play in editor total start time 0,12 seconds.
+[2023.06.07-18.32.03:041][453]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.32.03:041][453]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.32.03:041][453]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.32.03:041][453]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.32.03:043][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:043][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:043][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:043][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:044][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:045][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:045][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:045][453]LogScript: Warning: Script Msg: Attempted to access index 5 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:045][453]LogScript: Warning: Script Msg: Attempted to access index 4 from array 'LayerOverwrites' of length 4 in '/Game/VN_Framework/Blueprints/ParentActor.ParentActor_C'!
+[2023.06.07-18.32.03:116][462]Cmd: sg.resolutionquality 100
+[2023.06.07-18.32.03:117][462]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.32.03:117][462]sg.ResolutionQuality = "100"
+[2023.06.07-18.32.03:117][462]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.32.03:117][462]r.SetRes = "1280x720w"
+[2023.06.07-18.32.03:117][462]LogBlueprintUserMessages: [Global_BP_C_53] Skipping text calibration
+[2023.06.07-18.32.03:429][499]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_16' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.32.03:429][499]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.32.03:429][499]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_18' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP'!
+[2023.06.07-18.32.04:412][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.04:412][613]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.04:412][613]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.32.04:413][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.04:421][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.32.04:428][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.04:501][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.32.04:502][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.07-18.32.04:503][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2023.06.07-18.32.04:506][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.04:509][613]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.06.07-18.32.04:523][614]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.06.07-18.32.17:338][122]BlueprintLog: New page: Compile L_Scene1
+[2023.06.07-18.32.17:448][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2023.06.07-18.32.19:052][293]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.32.19:057][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.32.19:057][293]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:32:19)
+[2023.06.07-18.32.19:057][293]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.19:059][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001090s)
+[2023.06.07-18.32.19:059][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001150s)
+[2023.06.07-18.32.19:059][293]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.32.19:059][293]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.32.19:059][293]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.32.19:059][293]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2023.06.07-18.32.19:131][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.06.07-18.32.19:134][293]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2023.06.07-18.32.19:134][293]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.32.19:135][293]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.32.19:135][293]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.32.19:135][293]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.32.19:135][293]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.32.19:135][293]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.32.19:137][293]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.32.19:150][293]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.32.19:151][293]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.32.19:151][293]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.32.19:151][293]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.32.19:151][293]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2023.06.07-18.32.19:151][293]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2023.06.07-18.32.19:153][293]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2023.06.07-18.32.19:153][293]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2023.06.07-18.32.19:153][293]LogInit: FAudioDevice initialized.
+[2023.06.07-18.32.19:153][293]LogAudio: Display: Audio Device (ID: 56) registered with world 'L_Scene1'.
+[2023.06.07-18.32.19:166][293]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.32.19:166][293]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.32.19
+[2023.06.07-18.32.19:166][293]LogWorld: Bringing up level for play took: 0.000288
+[2023.06.07-18.32.19:167][293]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2023.06.07-18.32.19:168][293]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.32.19:169][293]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.32.19:170][293]PIE: Server logged in
+[2023.06.07-18.32.19:170][293]PIE: Play in editor total start time 0,114 seconds.
+[2023.06.07-18.32.19:171][293]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:172][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:173][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.19:174][293]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.32.19:174][293]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.32.19:174][293]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.32.19:175][293]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.19:175][293]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.19:175][293]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.19:175][293]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.19:254][303]Cmd: sg.resolutionquality 100
+[2023.06.07-18.32.19:255][303]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.32.19:255][303]sg.ResolutionQuality = "100"
+[2023.06.07-18.32.19:255][303]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.32.19:255][303]r.SetRes = "1280x720w"
+[2023.06.07-18.32.19:255][303]LogBlueprintUserMessages: [Global_BP_C_54] Skipping text calibration
+[2023.06.07-18.32.20:613][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.20:613][458]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.20:613][458]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.32.20:613][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.20:625][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.32.20:633][458]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.20:707][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.20:708][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.07-18.32.20:709][458]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2023.06.07-18.32.20:715][458]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.06.07-18.32.20:839][459]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.06.07-18.32.22:500][629]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.32.22:504][629]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.32.49:187][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.32.49:188][747]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.32.49:188][747]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table9AD4967244F936707B4BFABEB9124200.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.32.49:201][747]AssetCheck: New page: Asset Save: Scene1_table
+[2023.06.07-18.32.49:201][747]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
+[2023.06.07-18.32.50:255][870]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.32.50:260][870]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.32.50:260][870]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:32:50)
+[2023.06.07-18.32.50:261][870]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.50:262][870]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001076s)
+[2023.06.07-18.32.50:262][870]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001139s)
+[2023.06.07-18.32.50:262][870]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.32.50:262][870]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.32.50:262][870]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.32.50:263][870]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2023.06.07-18.32.50:335][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2023.06.07-18.32.50:338][870]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.32.50:338][870]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.32.50:339][870]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.32.50:339][870]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.32.50:339][870]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.32.50:339][870]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.32.50:341][870]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.32.50:354][870]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.32.50:355][870]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.32.50:355][870]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.32.50:355][870]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.32.50:355][870]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2023.06.07-18.32.50:355][870]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2023.06.07-18.32.50:357][870]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2023.06.07-18.32.50:357][870]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2023.06.07-18.32.50:357][870]LogInit: FAudioDevice initialized.
+[2023.06.07-18.32.50:357][870]LogAudio: Display: Audio Device (ID: 57) registered with world 'L_Scene1'.
+[2023.06.07-18.32.50:367][870]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.32.50:368][870]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.32.50
+[2023.06.07-18.32.50:368][870]LogWorld: Bringing up level for play took: 0.000272
+[2023.06.07-18.32.50:369][870]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2023.06.07-18.32.50:370][870]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.32.50:371][870]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.32.50:371][870]PIE: Server logged in
+[2023.06.07-18.32.50:372][870]PIE: Play in editor total start time 0,112 seconds.
+[2023.06.07-18.32.50:373][870]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:374][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.32.50:375][870]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.32.50:375][870]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.32.50:376][870]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.32.50:377][870]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.50:377][870]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.50:377][870]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.50:377][870]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.32.50:458][880]Cmd: sg.resolutionquality 100
+[2023.06.07-18.32.50:458][880]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.32.50:458][880]sg.ResolutionQuality = "100"
+[2023.06.07-18.32.50:458][880]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.32.50:458][880]r.SetRes = "1280x720w"
+[2023.06.07-18.32.50:458][880]LogBlueprintUserMessages: [Global_BP_C_55] Skipping text calibration
+[2023.06.07-18.32.51:615][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.51:615][ 11]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.32.51:615][ 11]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.32.51:615][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.51:629][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.32.51:636][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.32.51:708][ 11]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.32.51:708][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.07-18.32.51:710][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2023.06.07-18.32.51:713][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.32.51:715][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2023.06.07-18.32.51:812][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2023.06.07-18.32.52:925][112]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.32.52:929][112]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.33.13:708][436]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\python\Scene0_table.csv)
+[2023.06.07-18.33.29:579][436]LogSlate: Window 'DataTable Options' being destroyed
+[2023.06.07-18.33.29:588][436]LogCSVImportFactory: Imported DataTable 'Scene0_table' - 0 Problems
+[2023.06.07-18.33.31:369][646]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Miguel/DataTable/Scene0_table.Scene0_table
+[2023.06.07-18.33.42:836][925]BlueprintLog: New page: Compile L_Scene1
+[2023.06.07-18.33.42:948][925]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.06.07-18.33.42:967][925]BlueprintLog: New page: Compile L_Scene1
+[2023.06.07-18.33.43:078][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.06.07-18.33.44:103][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.06.07-18.33.44:157][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/Levels/L_Scene1" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.06.07-18.33.44:229][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.06.07-18.33.44:236][ 25]LogSavePackage: Moving output files for package: /Game/Miguel/Levels/L_Scene1
+[2023.06.07-18.33.44:236][ 25]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/L_Scene13168A1AA41F9B2E9941D21850CC6ADC2.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/Levels/L_Scene1.umap'
+[2023.06.07-18.33.44:244][ 25]LogFileHelpers: Saving map 'L_Scene1' took 0.088
+[2023.06.07-18.33.44:244][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene0_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene0_table.uasset" SILENT=true
+[2023.06.07-18.33.44:246][ 25]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene0_table
+[2023.06.07-18.33.44:246][ 25]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene0_table6F8FF6A34AA50F18B2AC7A95D1FBE8E5.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene0_table.uasset'
+[2023.06.07-18.33.44:261][ 25]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.07-18.33.44:261][ 25]LogContentValidation: Display: Validating World /Game/Miguel/Levels/L_Scene1.L_Scene1
+[2023.06.07-18.33.44:261][ 25]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene0_table.Scene0_table
+[2023.06.07-18.34.16:891][835]LogContentBrowser: Attempting asset rename: Scene0_table -> example
+[2023.06.07-18.34.16:945][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/example" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/example.uasset" SILENT=true
+[2023.06.07-18.34.16:946][835]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/example
+[2023.06.07-18.34.16:946][835]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/example3C9FD3AB4E58337ACF1E258E6AC0F4C5.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/example.uasset'
+[2023.06.07-18.34.17:049][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.06.07-18.34.17:124][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2023.06.07-18.34.17:196][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.06.07-18.34.17:208][835]AssetCheck: New page: Asset Save: example
+[2023.06.07-18.34.17:208][835]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/example.example
+[2023.06.07-18.34.27:595][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2023.06.07-18.34.27:649][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Scenes/DT_MainScenes" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Scenes/DT_MainScenes.uasset" SILENT=true
+[2023.06.07-18.34.27:650][  2]LogSavePackage: Moving output files for package: /Game/VN_Framework/Scenes/DT_MainScenes
+[2023.06.07-18.34.27:650][  2]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/DT_MainScenes28722C2849007344E1632AB2A855B6C0.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Scenes/DT_MainScenes.uasset'
+[2023.06.07-18.34.27:664][  2]AssetCheck: New page: Asset Save: DT_MainScenes
+[2023.06.07-18.34.27:664][  2]LogContentValidation: Display: Validating DataTable /Game/VN_Framework/Scenes/DT_MainScenes.DT_MainScenes
+[2023.06.07-18.34.29:346][196]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.34.29:351][196]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.34.29:351][196]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:34:29)
+[2023.06.07-18.34.29:351][196]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.34.29:352][196]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001072s)
+[2023.06.07-18.34.29:352][196]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001132s)
+[2023.06.07-18.34.29:352][196]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.34.29:352][196]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.34.29:353][196]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.34.29:353][196]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2023.06.07-18.34.29:426][196]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.06.07-18.34.29:428][196]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.34.29:428][196]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.34.29:428][196]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.34.29:429][196]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.34.29:429][196]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.34.29:429][196]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.34.29:430][196]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.34.29:444][196]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.34.29:444][196]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.34.29:444][196]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.34.29:444][196]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.34.29:445][196]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2023.06.07-18.34.29:445][196]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2023.06.07-18.34.29:446][196]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2023.06.07-18.34.29:446][196]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2023.06.07-18.34.29:446][196]LogInit: FAudioDevice initialized.
+[2023.06.07-18.34.29:446][196]LogAudio: Display: Audio Device (ID: 58) registered with world 'L_Scene1'.
+[2023.06.07-18.34.29:460][196]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.34.29:460][196]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.34.29
+[2023.06.07-18.34.29:460][196]LogWorld: Bringing up level for play took: 0.000278
+[2023.06.07-18.34.29:462][196]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2023.06.07-18.34.29:462][196]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.34.29:463][196]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.34.29:464][196]PIE: Server logged in
+[2023.06.07-18.34.29:465][196]PIE: Play in editor total start time 0,113 seconds.
+[2023.06.07-18.34.29:466][196]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.34.29:466][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:466][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:466][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:466][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:466][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:467][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]PIE: Error: Blueprint Runtime Error: "Incompatible output parameter; the data table's type is not the same as the return type.". Node:  Get Data Table Row Graph:  BuildFullScene Function:  Build Full Scene Blueprint:  TouchClickActor_BP
+[2023.06.07-18.34.29:468][196]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.34.29:468][196]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.34.29:468][196]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.34.29:469][196]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.34.29:469][196]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.34.29:469][196]PIE: Error: Blueprint Runtime Error: "Attempted to access index 0 from array ArrayofRows of length 0!". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.34.29:469][196]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph WD NVL Blueprint:  WD_NVL
+[2023.06.07-18.34.29:548][206]Cmd: sg.resolutionquality 100
+[2023.06.07-18.34.29:548][206]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.34.29:548][206]sg.ResolutionQuality = "100"
+[2023.06.07-18.34.29:548][206]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.34.29:548][206]r.SetRes = "1280x720w"
+[2023.06.07-18.34.29:548][206]LogBlueprintUserMessages: [Global_BP_C_56] Skipping text calibration
+[2023.06.07-18.34.30:853][362]LogScript: Warning: Attempted to access index -1 from array ArrayofRows of length 0!
+	NVL_SceneTemp_BP_C /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1:PersistentLevel.NVL_SceneTemp_BP_C_0
+	Function /Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP:2C76
+[2023.06.07-18.34.30:853][362]PIE: Error: Blueprint Runtime Error: "Attempted to access index -1 from array ArrayofRows of length 0!". Node:  Change Costume Graph:  DestroyCharacters Function:  Execute Ubergraph Scene Template BP Blueprint:  SceneTemplate_BP
+[2023.06.07-18.34.30:853][362]LogScript: Warning: Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB
+	NVL_SceneTemp_BP_C /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1:PersistentLevel.NVL_SceneTemp_BP_C_0
+	Function /Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ExecuteUbergraph_SceneTemplate_BP:2C76
+[2023.06.07-18.34.30:853][362]PIE: Error: Blueprint Runtime Error: "Accessed None reading structure SpecialEffect_22_FACE3474438C25EE38F34A817D3EA0DB". Node:  Change Costume Graph:  DestroyCharacters Function:  Execute Ubergraph Scene Template BP Blueprint:  SceneTemplate_BP
+[2023.06.07-18.34.30:854][362]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_2' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.34.30:854][362]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue_1' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.34.30:854][362]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_ParseIntoArray_ReturnValue' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C:ChangeCostume'!
+[2023.06.07-18.34.30:854][362]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2023.06.07-18.34.30:854][362]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2023.06.07-18.34.31:390][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.34.31:390][422]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.34.31:390][422]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.34.31:390][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.34.31:399][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.34.31:406][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.34.31:477][422]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.34.31:477][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.07-18.34.31:479][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2023.06.07-18.34.31:481][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.34.31:484][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2023.06.07-18.34.31:601][423]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2023.06.07-18.34.34:467][737]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.34.34:471][737]LogSlate: Window 'Message Log' being destroyed
+[2023.06.07-18.34.46:932][776]LogCSVImportFactory: Imported DataTable 'Scene1_table' - 0 Problems
+[2023.06.07-18.34.50:848][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.07-18.34.51:927][ 62]LogSlate: Window 'Delete Assets' being destroyed
+[2023.06.07-18.34.51:993][ 62]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Miguel/DataTable/Scene1_table.Scene1_table
+	Asset Type: DataTable
+[2023.06.07-18.34.52:484][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2023.06.07-18.34.52:559][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2023.06.07-18.34.52:633][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2023.06.07-18.34.59:827][481]LogFactory: FactoryCreateFile: CurveBase with ReimportCurveFactory (0 1 C:\python\Scene1_table.csv)
+[2023.06.07-18.35.07:040][481]LogSlate: Window 'DataTable Options' being destroyed
+[2023.06.07-18.35.07:048][481]LogCSVImportFactory: Imported DataTable 'Scene1_table' - 0 Problems
+[2023.06.07-18.35.25:426][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Scenes/DT_MainScenes" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Scenes/DT_MainScenes.uasset" SILENT=true
+[2023.06.07-18.35.25:427][614]LogSavePackage: Moving output files for package: /Game/VN_Framework/Scenes/DT_MainScenes
+[2023.06.07-18.35.25:427][614]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/DT_MainScenesE1FD6B574826CFFA2B0630BD3849583A.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Scenes/DT_MainScenes.uasset'
+[2023.06.07-18.35.25:441][614]AssetCheck: New page: Asset Save: DT_MainScenes
+[2023.06.07-18.35.25:441][614]LogContentValidation: Display: Validating DataTable /Game/VN_Framework/Scenes/DT_MainScenes.DT_MainScenes
+[2023.06.07-18.35.27:039][800]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.35.27:045][800]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.35.27:045][800]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:35:27)
+[2023.06.07-18.35.27:093][800]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.35.27:095][800]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001444s)
+[2023.06.07-18.35.27:095][800]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001554s)
+[2023.06.07-18.35.27:095][800]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.35.27:095][800]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.35.27:095][800]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.35.27:096][800]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2023.06.07-18.35.27:175][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.06.07-18.35.27:178][800]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.35.27:178][800]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.35.27:178][800]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.35.27:179][800]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.35.27:179][800]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.35.27:179][800]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.35.27:181][800]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.35.27:194][800]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.35.27:194][800]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.35.27:195][800]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.35.27:195][800]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.35.27:195][800]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2023.06.07-18.35.27:195][800]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2023.06.07-18.35.27:196][800]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2023.06.07-18.35.27:197][800]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2023.06.07-18.35.27:197][800]LogInit: FAudioDevice initialized.
+[2023.06.07-18.35.27:197][800]LogAudio: Display: Audio Device (ID: 59) registered with world 'L_Scene1'.
+[2023.06.07-18.35.27:209][800]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.35.27:209][800]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.35.27
+[2023.06.07-18.35.27:209][800]LogWorld: Bringing up level for play took: 0.000267
+[2023.06.07-18.35.27:210][800]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2023.06.07-18.35.27:211][800]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.35.27:212][800]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.35.27:213][800]PIE: Server logged in
+[2023.06.07-18.35.27:213][800]PIE: Play in editor total start time 0,169 seconds.
+[2023.06.07-18.35.27:214][800]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.35.27:215][800]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.35.27:215][800]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.35.27:215][800]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.35.27:236][803]Cmd: sg.resolutionquality 100
+[2023.06.07-18.35.27:236][803]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.35.27:236][803]sg.ResolutionQuality = "100"
+[2023.06.07-18.35.27:236][803]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.35.27:236][803]r.SetRes = "1280x720w"
+[2023.06.07-18.35.27:236][803]LogBlueprintUserMessages: [Global_BP_C_57] Skipping text calibration
+[2023.06.07-18.35.27:550][840]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.29:860][117]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.31:063][260]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.32:230][400]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.33:765][584]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.34:482][670]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.35:201][754]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.35:203][754]LogBlueprintUserMessages: [WD_NVL_C_0] 59.462219
+[2023.06.07-18.35.36:259][881]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.37:636][ 46]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.38:612][163]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.39:064][217]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.39:755][300]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.40:434][381]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.41:844][550]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.41:846][550]LogBlueprintUserMessages: [WD_NVL_C_0] 72.583679
+[2023.06.07-18.35.44:003][808]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.46:464][ 90]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.47:625][229]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.48:658][353]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.49:697][477]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.50:813][611]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.51:804][730]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.52:297][789]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.53:230][901]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.53:233][901]LogBlueprintUserMessages: [WD_NVL_C_0] 12.583679
+[2023.06.07-18.35.54:492][ 52]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.35.55:935][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.35.55:935][222]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.35.55:935][222]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.35.55:935][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.35.55:946][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.35.55:953][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.35.56:025][222]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.06.07-18.35.56:025][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.07-18.35.56:026][222]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59
+[2023.06.07-18.35.56:029][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.35.56:032][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.06.07-18.35.56:046][223]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2023.06.07-18.36.27:090][835]BlueprintLog: New page: Compile WD_NVL
+[2023.06.07-18.36.27:320][835]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2023.06.07-18.36.29:174][ 33]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.06.07-18.36.29:179][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.06.07-18.36.29:179][ 33]PIE: New page: PIE session: L_Scene1 (7 jun. 2023 22:36:29)
+[2023.06.07-18.36.29:179][ 33]LogPlayLevel: Creating play world package: /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.36.29:180][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001079s)
+[2023.06.07-18.36.29:180][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Miguel/Levels/L_Scene1.L_Scene1 to /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 (0.001140s)
+[2023.06.07-18.36.29:181][ 33]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2023.06.07-18.36.29:181][ 33]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.06.07-18.36.29:181][ 33]LogAIModule: Creating AISystem for world L_Scene1
+[2023.06.07-18.36.29:181][ 33]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2023.06.07-18.36.29:256][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2023.06.07-18.36.29:261][ 33]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.06.07-18.36.29:261][ 33]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.06.07-18.36.29:261][ 33]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.06.07-18.36.29:261][ 33]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.06.07-18.36.29:261][ 33]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.06.07-18.36.29:261][ 33]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.06.07-18.36.29:263][ 33]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.06.07-18.36.29:277][ 33]LogAudioMixer: Display: Using Audio Hardware Device MP59G (NVIDIA High Definition Audio)
+[2023.06.07-18.36.29:277][ 33]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.06.07-18.36.29:277][ 33]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.06.07-18.36.29:277][ 33]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.06.07-18.36.29:278][ 33]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2023.06.07-18.36.29:278][ 33]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2023.06.07-18.36.29:279][ 33]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2023.06.07-18.36.29:279][ 33]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2023.06.07-18.36.29:279][ 33]LogInit: FAudioDevice initialized.
+[2023.06.07-18.36.29:279][ 33]LogAudio: Display: Audio Device (ID: 60) registered with world 'L_Scene1'.
+[2023.06.07-18.36.29:291][ 33]LogLoad: Game class is 'VN_GameMode_C'
+[2023.06.07-18.36.29:291][ 33]LogWorld: Bringing World /Game/Miguel/Levels/UEDPIE_0_L_Scene1.L_Scene1 up for play (max tick rate 0) at 2023.06.07-20.36.29
+[2023.06.07-18.36.29:291][ 33]LogWorld: Bringing up level for play took: 0.000268
+[2023.06.07-18.36.29:292][ 33]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2023.06.07-18.36.29:293][ 33]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2023.06.07-18.36.29:294][ 33]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors_2' of length 0 in '/Game/VN_Framework/Blueprints/Global_BP.Global_BP_C:ExecuteUbergraph_Global_BP'!
+[2023.06.07-18.36.29:295][ 33]PIE: Server logged in
+[2023.06.07-18.36.29:295][ 33]PIE: Play in editor total start time 0,116 seconds.
+[2023.06.07-18.36.29:296][ 33]LogPawn: Error: EnableInput can only be specified on a Pawn for its Controller
+[2023.06.07-18.36.29:297][ 33]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2023.06.07-18.36.29:297][ 33]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2023.06.07-18.36.29:297][ 33]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2023.06.07-18.36.29:377][ 43]Cmd: sg.resolutionquality 100
+[2023.06.07-18.36.29:378][ 43]LogEngine: Display: r.ScreenPercentage=100.000000 is ignored because overriden by editor settings (r.Editor.Viewport.OverridePIEScreenPercentage). Change this behavior in Edit -> Editor Preferences -> Performance
+[2023.06.07-18.36.29:378][ 43]sg.ResolutionQuality = "100"
+[2023.06.07-18.36.29:378][ 43]Cmd: r.SetRes 1280x720w
+[2023.06.07-18.36.29:378][ 43]r.SetRes = "1280x720w"
+[2023.06.07-18.36.29:378][ 43]LogBlueprintUserMessages: [Global_BP_C_58] Skipping text calibration
+[2023.06.07-18.36.29:692][ 80]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.30:908][226]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.31:446][289]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.32:103][368]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.33:288][510]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.34:537][660]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.35:847][815]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.36:682][915]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.36:907][942]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.37:393][  0]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.37:812][ 50]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.38:020][ 75]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.38:415][122]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.38:848][174]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.39:410][241]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.39:901][300]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.40:604][384]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.41:654][510]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.42:384][597]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.42:800][647]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'SpeakerNameExcepts' of length 0 in '/Game/VN_Framework/Blueprints/SceneTemplate_BP.SceneTemplate_BP_C'!
+[2023.06.07-18.36.43:408][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.36.43:408][716]LogWorld: BeginTearingDown for /Game/Miguel/Levels/UEDPIE_0_L_Scene1
+[2023.06.07-18.36.43:408][716]LogWorld: UWorld::CleanupWorld for L_Scene1, bSessionEnded=true, bCleanupResources=true
+[2023.06.07-18.36.43:408][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.36.43:417][716]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.06.07-18.36.43:424][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.06.07-18.36.43:495][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.06.07-18.36.43:496][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.07-18.36.43:497][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2023.06.07-18.36.43:503][716]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2023.06.07-18.36.43:517][717]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2023.06.07-18.36.47:728][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2023.06.07-18.36.47:796][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VN_Framework/Blueprints/Widgets/WD_NVL" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Widgets/WD_NVL.uasset" SILENT=true
+[2023.06.07-18.36.47:858][197]LogSavePackage: Moving output files for package: /Game/VN_Framework/Blueprints/Widgets/WD_NVL
+[2023.06.07-18.36.47:858][197]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/WD_NVL1463E9E5476173415C76A19770C082A6.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/VN_Framework/Blueprints/Widgets/WD_NVL.uasset'
+[2023.06.07-18.36.47:859][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Miguel/DataTable/Scene1_table" FILE="../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset" SILENT=true
+[2023.06.07-18.36.47:860][197]LogSavePackage: Moving output files for package: /Game/Miguel/DataTable/Scene1_table
+[2023.06.07-18.36.47:860][197]LogSavePackage: Moving '../../../../../../MiguelAngel/Github/Psycho-Mind/Saved/Scene1_table5823334949A462FA5C83FBB01325C7DE.tmp' to '../../../../../../MiguelAngel/Github/Psycho-Mind/Content/Miguel/DataTable/Scene1_table.uasset'
+[2023.06.07-18.36.47:877][197]AssetCheck: New page: Asset Save: multiple assets
+[2023.06.07-18.36.47:877][197]LogContentValidation: Display: Validating WidgetBlueprint /Game/VN_Framework/Blueprints/Widgets/WD_NVL.WD_NVL
+[2023.06.07-18.36.47:877][197]LogContentValidation: Display: Validating DataTable /Game/Miguel/DataTable/Scene1_table.Scene1_table
