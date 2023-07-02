@@ -5,16 +5,14 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
+			"Name": "DialogueBuilder",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/0757846060534a32aa333e37f9e2706d"
 		},
 		{
-			"Name": "ReplicaLink",
+			"Name": "DialoguePlugin",
 			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/319ae183aabb405c8eb1011c130c10e9"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/847aa65dc3024a37ae83ed89307524bd"
 		}
 	]
 }
